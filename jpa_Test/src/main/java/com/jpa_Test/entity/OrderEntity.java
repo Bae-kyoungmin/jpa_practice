@@ -18,10 +18,6 @@ import lombok.NoArgsConstructor;
 @Table(name = "ORDERS")
 public class OrderEntity {
 
-	// 직접적인 인스턴스화를 방지하기 위한 private 생성자
-    OrderEntity() {
-        // 기본 생성자
-    }
 
     // 빌더 메서드
     public static OrderEntity builder() {

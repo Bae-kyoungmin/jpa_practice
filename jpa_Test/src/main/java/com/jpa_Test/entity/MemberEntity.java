@@ -19,11 +19,6 @@ import lombok.NoArgsConstructor;
 @Table(name = "MEMBER")
 public class MemberEntity {
 	
-    // 직접적인 인스턴스화를 방지하기 위한 private 생성자
-    public MemberEntity() {
-        // 기본 생성자
-    }
-
     // 빌더 메서드
     public static MemberEntity builder() {
         return new MemberEntity();
